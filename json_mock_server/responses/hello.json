@@ -1,0 +1,8 @@
+{
+  "message": "Hello from the mock server!",
+  "status": "success",
+  "data": {
+    "id": 123,
+    "name": "Test Item"
+  }
+}

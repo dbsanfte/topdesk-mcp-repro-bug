@@ -1,0 +1,12 @@
+[
+    {
+      "path": "/hello",
+      "method": "get",
+      "response": "hello.json"
+    },
+    {
+        "path": "/tas/api/incidents",
+        "method": "get",
+        "response": "incidents.json"
+    }
+]

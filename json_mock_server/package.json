@@ -1,0 +1,9 @@
+{
+  "name": "json-mock-server",
+  "version": "1.0.0",
+  "description": "HTTP server that serves JSON files based on endpoint mappings",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

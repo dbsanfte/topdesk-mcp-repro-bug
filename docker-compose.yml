@@ -1,0 +1,16 @@
+services:
+  json_mock_server:
+    build:
+      context: ./json_mock_server
+    ports:
+      - "8080:8080"
+    deploy:
+      replicas: 1
+
+  topdesk_mcp_repro_bug:
+    build:
+      context: ./topdesk_mcp_repro_bug
+    ports:
+      - "8000:8000"
+    deploy:
+      replicas: 1
